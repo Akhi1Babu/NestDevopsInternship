@@ -42,8 +42,10 @@ NestDevopsInternship/
 ├── style.css           # Stylesheet with glassmorphism and dark theme
 ├── script.js           # JavaScript for interactive features
 ├── background.js       # Three.js 3D particle background animation
-└── README.md          # Project documentation
+└── README.md           # Project documentation (this file)
 ```
+
+*Note: This shows the main project files. Additional files like `.git/` and `.gitignore` may exist in your local repository.*
 
 ## 🚀 Getting Started
 
@@ -146,10 +148,13 @@ The website uses a modern dark theme with blue/cyan accents:
 
 ## 📱 Responsive Design
 
-The website is fully responsive with breakpoints for:
-- **Desktop**: 1200px and above (default)
-- **Tablet**: 768px - 1199px
-- **Mobile**: Below 768px (hamburger menu activated)
+The website is fully responsive with the following breakpoints using max-width media queries:
+- **Desktop**: Above 768px (default styling)
+- **Tablet & Mobile**: 768px and below
+  - Hamburger menu activated
+  - Stacked layout for feature cards
+  - Adjusted typography sizes
+  - Mobile-optimized navigation
 
 ## 🤝 Contributing
 
