@@ -128,8 +128,8 @@ The contact form uses [FormSubmit.co](https://formsubmit.co/), a free form backe
 
 **To configure for your email:**
 1. Open `index.html`
-2. Find the form tag (line 94)
-3. Replace `akhilb732@gmail.com` with your email:
+2. Find the form tag in the Contact section
+3. Replace `akhilb732@gmail.com` with your email in the form action attribute:
    ```html
    <form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST">
    ```
